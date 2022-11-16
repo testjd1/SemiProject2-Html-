@@ -94,12 +94,6 @@
 					
 				</ul>
 			
-				<script src="../js/jquery-3.4.1.min.js"></script>
-				
-				<script src="assets/js/jquery.bxslider.min.js"></script>	
-				<script>
-					$('.slider').bxSlider();
-				</script>
 			
 			
 			
@@ -128,11 +122,11 @@
 																	<p>With a smaller subtitle that attempts to elaborate</p>
 																	
 																</header>
-																<a href="#" class="image featured"><img src="images/1.jpg" alt="" /></a>
+																<a href="#" class="image featured"><img src="images/11.jpg" alt="" /></a>
 																<p>
 																	location설명설명
 																</p>
-																<a href="location/location.html" class="button">location</a>
+																<a href="story/story.html" class="button">location</a>
 															</article>
 
 													</div>
@@ -301,12 +295,25 @@
          <script>
 			$( document ).ready( function() {
 			  $( '.slider' ).bxSlider( {
-				auto: false,  //자동넘어감
+			
+				auto: true,  //자동넘어감
+				controls : true,//좌우 화살표
+				autoControls: true,	//stop,play 
+				
 				pause: 5000,
+				speed: 500, 
+				autoDelay: 0,
+				stopAutoOnclick:true,
+				slideWidth: 900, //이미지 박스 크기설정 
+				
 				autoHover: true,
 				minSlides: 1,
 				maxSlides: 1,
+				margin: 0 
+			
 
+
+                 
 
 			  } );
 			} );

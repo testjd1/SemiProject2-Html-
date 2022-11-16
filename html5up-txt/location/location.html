@@ -74,7 +74,7 @@
                                           <article class="box post-summary">
                                              <h3><a href="../location/hongdae.html">홍대 본점</a></h3>
                                              <ul class="meta">
-                                                <li class="icon fa-clock">6 hours ago</li>
+                                                <li class="icon fa-clock">hongdae</li>
                                                 <li class="icon fa-comments"><a href="#">34</a></li>
                                              </ul>
                                           </article>
@@ -83,7 +83,7 @@
                                           <article class="box post-summary">
                                              <h3><a href="../location/anyang.html">안양점</a></h3>
                                              <ul class="meta">
-                                                <li class="icon fa-clock">9 hours ago</li>
+                                                <li class="icon fa-clock">Anyang</li>
                                                 <li class="icon fa-comments"><a href="#">27</a></li>
                                              </ul>
                                           </article>
@@ -92,7 +92,7 @@
                                           <article class="box post-summary">
                                              <h3><a href="../location/gumi.html">구미점</a></h3>
                                              <ul class="meta">
-                                                <li class="icon fa-clock">Yesterday</li>
+                                                <li class="icon fa-clock">Gumi</li>
                                                 <li class="icon fa-comments"><a href="#">184</a></li>
                                              </ul>
                                           </article>
@@ -100,38 +100,48 @@
                                     </ul>
                                  
                                  </section>
+                                
 
                            
                         </div>
                      </div>
                      <div class="col-9 col-12-medium imp-medium">
+                        
+                    
                         <div class="content">
+                           <div id="googleMap" style="width: 70%; height: 400px; width:900px; "></div>
 
+                           <script>
+                              function myMap(){
+                            var mapOptions = { 
+                                center:new google.maps.LatLng(37.5565, 126.9226),
+                                zoom:18,
+                                
+                            };
+                        
+                            var map = new google.maps.Map( 
+                                 document.getElementById("googleMap") 
+                                , mapOptions );
+                          }
+                       </script> 
+                       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDogecLb7PjMiFZvVIeUYhUI9-Kgse6hmg&callback=myMap"></script>
+                 
+                     </td>
+
+
+
+                          <br/>
                            <!-- Content -->
-
-                           <div id="googleMap" style="width: 70%;height: 600px;"></div>
-
-               <script>
-             function myMap(){
-           var mapOptions = { 
-               center:new google.maps.LatLng(37.5565, 126.9226),
-               zoom:18,
-               
-           };
-       
-           var map = new google.maps.Map( 
-                document.getElementById("googleMap") 
-               , mapOptions );
-         }
-      </script> 
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDogecLb7PjMiFZvVIeUYhUI9-Kgse6hmg&callback=myMap"></script>
-
-
-
+                           <h2>주소</h2> <hr/>
+                           <h1>서울특별시 마포구 양화로 153 (동교동) cgv건물 2층</h1>
                            
-
+                     
                         </div>
                      </div>
+
+
+
+
                      <div class="col-12">
 
                         <!-- Features -->
