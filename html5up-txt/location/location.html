@@ -1,55 +1,56 @@
 <!DOCTYPE HTML>
 <!--
-	TXT by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+   TXT by HTML5 UP
+   html5up.net | @ajlkn
+   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Left Sidebar - TXT by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../assets/css/main.css" />
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
+   <head>
+      <title>Left Sidebar - TXT by HTML5 UP</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <link rel="stylesheet" href="../assets/css/main.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+   </head>
+   <body class="is-preload">
+      <div id="page-wrapper">
 
-			<!-- Header -->
-			<nav id="nav">
-				<div id="navImage">
-					<a href="../index.html"><img src="../images/logo2.png" height="138px"></a>
-				</div>
-									
-				<ul>	
-						<li><a href="../index.html">Home</a></li>
-						
-						<li ><a href="../story/story.html">Story</a></li>
-						<li class="current"><a href="../location/location.html">Location</a>
-							<ul>
-								<li><a href="../location/hongdae.html">홍대</a></li>
-								<li><a href="../location/anyang.html">안양</a></li>
-								<li><a href="../location/gumi.html">구미</a></li>
-							</ul>
-						
-						
-						</li>
-						<li><a href="../theme/theme.html">Theme</a>
-							<ul>
-								<li><a href="../theme/horror.html">공포</a></li>
-								<li><a href="../theme/infiltration.html">잠입</a></li>
-								<li><a href="../theme/comic.html">코믹</a></li>
-								<li><a href="../theme/fantasy.html">판타지</a></li>
-								<li><a href="../theme/Emotion.html">감성</a></li>
-							</ul>
-						</li>
-						<li><a href="../q&a/q&a.html">Q&A</a></li>
-						<li><a href="../board/board.html">Board</a></li>
-						<li><a href="../mypage/mypage.html">Mypage</a></li>
-						<li><a href="../login/login.html">Login</a></li>
+         <!-- Header -->
+         <nav id="nav">
+            <div id="navImage">
+               <a href="../index.html"><img src="../images/logo2.png" height="138px"></a>
+            </div>
+                           
+            <ul>   
+                  <li><a href="../index.html">Home</a></li>
+                  
+                  <li ><a href="../story/story.html">Story</a></li>
+                  <li class="current"><a href="../location/location.html">Location</a>
+                     <ul>
+                        <li><a href="../location/hongdae.html">홍대</a></li>
+                        <li><a href="../location/anyang.html">안양</a></li>
+                        <li><a href="../location/gumi.html">구미</a></li>
+                     </ul>
+                  
+                  
+                  </li>
+                  <li><a href="../theme/theme.html">Theme</a>
+                     <ul>
+                        <li><a href="../theme/horror.html">공포</a></li>
+                        <li><a href="../theme/infiltration.html">잠입</a></li>
+                        <li><a href="../theme/comic.html">코믹</a></li>
+                        <li><a href="../theme/fantasy.html">판타지</a></li>
+                        <li><a href="../theme/Emotion.html">감성</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="../q&a/q&a.html">Q&A</a></li>
+                  <li><a href="../board/board.html">Board</a></li>
+                  <li><a href="../mypage/mypage.html">Mypage</a></li>
+                  <li><a href="../login/login.html">Login</a></li>
 
-						
-					</ul>
-				</nav>
+                  
+               </ul>
+            </nav>
             <header>
                <br/>
                <br/>
@@ -74,8 +75,8 @@
                                           <article class="box post-summary">
                                              <h3><a href="../location/hongdae.html">홍대 본점</a></h3>
                                              <ul class="meta">
-                                                <li class="icon fa-clock">hongdae</li>
-                                                <li class="icon fa-comments"><a href="#">34</a></li>
+                                                <i class="fa-regular fa-location-dot"> HONGDAE</i>
+                                                
                                              </ul>
                                           </article>
                                        </li>
@@ -83,8 +84,8 @@
                                           <article class="box post-summary">
                                              <h3><a href="../location/anyang.html">안양점</a></h3>
                                              <ul class="meta">
-                                                <li class="icon fa-clock">Anyang</li>
-                                                <li class="icon fa-comments"><a href="#">27</a></li>
+                                                <i class="fa-regular fa-location-dot"> ANYANG</i>
+                                                
                                              </ul>
                                           </article>
                                        </li>
@@ -92,8 +93,8 @@
                                           <article class="box post-summary">
                                              <h3><a href="../location/gumi.html">구미점</a></h3>
                                              <ul class="meta">
-                                                <li class="icon fa-clock">Gumi</li>
-                                                <li class="icon fa-comments"><a href="#">184</a></li>
+                                                <i class="fa-regular fa-location-dot"> GUMI</i>
+                                              
                                              </ul>
                                           </article>
                                        </li>
@@ -108,33 +109,10 @@
                      <div class="col-9 col-12-medium imp-medium">
                         
                     
-                        <div class="content">
-                           <div id="googleMap" style="width: 70%; height: 400px; width:900px; "></div>
-
-                           <script>
-                              function myMap(){
-                            var mapOptions = { 
-                                center:new google.maps.LatLng(37.5565, 126.9226),
-                                zoom:18,
-                                
-                            };
-                        
-                            var map = new google.maps.Map( 
-                                 document.getElementById("googleMap") 
-                                , mapOptions );
-                          }
-                       </script> 
-                       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDogecLb7PjMiFZvVIeUYhUI9-Kgse6hmg&callback=myMap"></script>
-                 
-                     </td>
+                     <h2> 클릭하세용</h2>
+                    
 
 
-
-                          <br/>
-                           <!-- Content -->
-                           <h2>주소</h2> <hr/>
-                           <h1>서울특별시 마포구 양화로 153 (동교동) cgv건물 2층</h1>
-                           
                      
                         </div>
                      </div>
@@ -232,7 +210,7 @@
 
       </div>
 
-   	<!-- Scripts -->
+      <!-- Scripts -->
       <script src="../assets/js/jquery.min.js"></script>
       <script src="../assets/js/jquery.dropotron.min.js"></script>
       <script src="../assets/js/jquery.scrolly.min.js"></script>
