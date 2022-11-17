@@ -1728,6 +1728,10 @@ input, select, textarea {
 
 		}
 
+
+		
+
+
 /* Image */
 
 	.image {
@@ -1758,20 +1762,14 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.image.featured {
+	.image.featured {
 			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
-		}
-
-		
-		.mainstorypic{
-			display: block;
-			width: 100%;
+			width: 100%; 
 			margin: 0 0 2em 0;
 			transition: 1s;
 		}
-		.image.featured:hover {
+	
+		section .box.feature >		.image.featured:hover {
 			opacity: 0.3;
 		}
 		#bx-text{
@@ -1786,7 +1784,8 @@ input, select, textarea {
 		.image.featured:hover #bx-text {
 			opacity: 1;
 		}
-
+		
+		
 
 		.image.left {
 			float: left;
