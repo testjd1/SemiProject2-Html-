@@ -1764,6 +1764,30 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
+		
+		.mainstorypic{
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+			transition: 1s;
+		}
+		.image.featured:hover {
+			opacity: 0.3;
+		}
+		#bx-text{
+			opacity: 1;
+			padding-top: 70px;
+			padding-left: 50px;
+			
+			position: absolute;
+			
+			
+		}
+		.image.featured:hover #bx-text {
+			opacity: 1;
+		}
+
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
